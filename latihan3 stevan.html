@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+  <h2>Formulir Pendaftaran</h2> 
+  <table border="1">
+    <tr>
+        <td>NIS</td>
+        <td><input type="text" name="nis" id="nis" placeholder="Ketik NIS"></td>
+    </tr>
+    <tr>
+        <td>Nama</td>
+        <td><input type="text" name="nama" id="nama" placeholder="Ketik nama"></td>
+    </tr>
+    <tr>
+        <td>Jenis kelamin</td>
+        <td><input type="radio" name="jeniskelamin" id="jeniskelamin"
+          value="laki laki">Laki laki <input type="radio" name="jenis kelamin" id="jenis kelamin"
+          value="perempuan">Perempuan</td>
+    </tr>
+    <tr>
+      <td>Tempat lahir</td>
+      <td><select name="tmplahir" id="tmplahir">
+        <option value="Semarang">Semarang</option>
+        <option value="Salatiga">Salatiga</option>
+        <option value="Kendal">Kendal</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td>Tanggal Lahir</td>
+    <td><input type="date" name="tgllahir" id="tgllahir"></td>
+  </tr> 
+  <tr>
+    <td colspan="2" style="text-align: center;">
+    <button type="submit">Simpan</button>
+  <button type="reset">Batal</button>
+</td>
+  </tr>
+  </table>
+</body>
+</html>
